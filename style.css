@@ -10,14 +10,52 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  overflow-x: hidden;
 }
 
-.form-creat{
+.form-create{
   width: 500px;
-  /* height: 500px; */
-  background-color: aqua;
+  padding: 1rem 2rem;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.header{
+  align-self: center;
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+
+.first-name-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input{
+  padding: 0.5rem 0.75rem;
+}
+
+.first-name-container label{
+  width: 50%;
+}
+
+input[type = date]{
+  width: 189.17px;
+}
+
+.gender-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 3.5rem;
+
 }

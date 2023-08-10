@@ -7,53 +7,61 @@
   <title>Form Creat</title>
 </head>
 <body>
-  <form action="" class="form-creat">
-    <h1>Form User Registration</h1>
-    <div>
+  <form class="form-create">
+    <h1 class="header">Form Registration</h1>
+    <div class="first-name-container">
       <label for="id-first-name">First Name</label>
       <input type="text" placeholder="Enter a First Name" name="username" id="id-first-name">
     </div>
-    <br>
-    <div>
+    <div class="first-name-container">
       <label for="id-last-name">Last Name</label>
       <input type="text" placeholder="Enter a Last Name" name="username" id="id-last-name">
     </div>
-    <br>
-    <div>
+     
+    <div class="first-name-container">
       <label for="id-email">E-mail</label>
       <input type="text" placeholder="Enter a Email" name="username" id="id-email">
     </div>
-    <br>
-    <div>
-      <label for="id-number">Phone</label>
-      <input type="number" placeholder="Enter a Number" name="username" id="id-number">
+     
+    <div class="first-name-container">
+      <label for="phone-num">Phone</label>
+      <input type="number" placeholder="Enter a Number" id="phone-num">
     </div>
-    <br>
-    <div>
-      <label for="id-new-password">New Password</label>
-      <input type="password" placeholder="Enter a Password" name="username" id="id-new-password">
-    </div>
-    <br>
-    <div>
-      <label for="id-con-password">Conform Password</label>
-      <input type="password" placeholder="Enter a Password" name="username" id="id-con-password">
-    </div>
-    <br>
-    <div>
-      <label for="id-gender">Gender</label>
-      <input type="radio" name="username" id="id-gender-male">
-      <label for="id-gender-male">Male</label>
-      <input type="radio" name="username" id="id-gender-female">
-      <label for="id-gender-female">Female</label>
-      <input type="radio" name="username" id="id-gender-others">
-      <label for="id-gender-others">Others</label>
-    </div>
-    <br>
-    <div>
+
+    <div class="first-name-container">
       <label for="id-dob">Date of Birth</label>
       <input type="date" name="username" id="id-dob">
     </div>
-    <br>
+     
+    <div class="first-name-container">
+      <label for="id-new-password">New Password</label>
+      <input type="password" placeholder="Enter a Password" id="id-new-password">
+    </div>
+     
+    <div class="first-name-container">
+      <label for="id-con-password">Conform Password</label>
+      <input type="password" placeholder="Enter a Password" name="username" id="id-con-password">
+    </div>
+    <div class="first-name-container">
+      <label for="id-url">LinkedIn URL</label>
+      <input type="url" placeholder="Enter URL" name="username" id="id-url">
+    </div>
+    <div class="gender-container">
+      <label for="id-gender">Gender</label>
+      <span>
+        <input type="radio" name="username" id="id-gender-male">
+        <label for="id-gender-male">Male</label>
+      </span>
+      <span>
+        <input type="radio" name="username" id="id-gender-female">
+        <label for="id-gender-female">Female</label>
+      </span>
+      <span>
+        <input type="radio" name="username" id="id-gender-others">
+        <label for="id-gender-others">Others</label>
+      </span>
+    </div>
+     
     <div>
       <label for="id-language">Language</label>
       <input type="checkbox" name="username" id="id-tamil-language">
@@ -61,33 +69,38 @@
       <input type="checkbox" name="username" id="id-english-language">
       <label for="id-english-language">English</label>
       <input type="checkbox" name="username" id="id-others-language">
-      <label for="id-others-language">Others</label>
+      <label for="id-others-language">Hindi</label>
     </div>
-    <br>
+     
     <div>
-      <label for="id-other-language">Other Language</label>
-      <input type="text" placeholder="Enter a Other Language" name="username" id="id-other-language">
+      <label for="dist">Select Your District</label>
+      <select name="district" id="dist">
+        <option value="select">Enter Your District</option>
+        <option value="Tpr">Tirupur</option>
+        <option value="cbe">Coimbatore</option>
+        <option value="erd">Erode</option>
+        <option value="slm">Salem</option>
+        <option value="vkl">Vellakoil</option>
+        <option value="chn">Chennai</option>
+        <option value="kk">KanniyaKumarai</option>
+        <option value="Nel">Thirunelvelli</option>
+      </select>
     </div>
-    <br>
-    <div>
+     
+    <div class="first-name-container">
       <label for="id-file">Upload Files</label>
       <input type="file" name="username" id="id-file">
     </div>
-    <br>
-    <div>
+     
+    <div class="first-name-container">
       <label for="id-range">Coding Range (1 to 5)</label>
       <input type="range" name="username" id="id-range">
     </div>
-    <br>
-    <div>
-      <label for="id-url">LinkedIn URL</label>
-      <input type="url" name="username" id="id-url">
-    </div>
-    <br>
-    <div>
+     
+    <div class="first-name-container">
       <input type="button" value="Submit">
     </div>
-    <div>
+    <div >
       <input type="reset" value="Reset">
     </div>
   </form>
