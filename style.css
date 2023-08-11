@@ -24,6 +24,8 @@ body{
   align-items: flex-start;
   gap: 2rem;
   margin-top: 2rem;
+  border-radius: 20px;
+
 }
 
 .header{
@@ -37,6 +39,63 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
+  border-radius: 5px;
+}
+
+.last-name-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.mail-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.phone-container{
+  width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.dob-container{
+  width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.new-pas-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.con-pas-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.url-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
 }
 
 input{
@@ -44,6 +103,34 @@ input{
 }
 
 .first-name-container label{
+  width: 50%;
+}
+
+.last-name-container label{
+  width: 50%;
+}
+
+.mail-container label {
+  width: 50%;
+}
+
+.phone-container label {
+  width: 50%;
+}
+
+.dob-container label {
+  width: 50%;
+}
+
+.new-pas-container label {
+  width: 50%;
+}
+
+.con-pas-container label {
+  width: 50%;
+}
+
+.url-container label{
   width: 50%;
 }
 
@@ -56,6 +143,46 @@ input[type = date]{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  gap: 3.5rem;
+  gap: 3rem;
 
+}
+
+.language-container{
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.btn-container{
+  width: 100%;
+  /* align-self: stretch; */
+}
+
+.rest-container{
+  width: 100%; 
+  /* align-self: center; */
+}
+
+.district-container{
+  sswidth: 100%;
+  /* height: 20px; */
+  flex-direction: row;
+  justify-content: flex-start;     gap: 1rem;
+  display: flex;
+}
+
+.btn-container input{
+  width: 100%;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.rest-container input{
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(3, 183, 207);
+  color: white;
 }

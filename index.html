@@ -8,72 +8,73 @@
 </head>
 <body>
   <form class="form-create">
-    <h1 class="header">Form Registration</h1>
+    <h1 class="header">Registration Form</h1>
     <div class="first-name-container">
-      <label for="id-first-name">First Name</label>
-      <input type="text" placeholder="Enter a First Name" name="username" id="id-first-name">
+      <label for="id-first-name">FIRST NAME</label>
+      <input type="text" placeholder="Enter First Name" name="username" id="id-first-name">
     </div>
-    <div class="first-name-container">
-      <label for="id-last-name">Last Name</label>
-      <input type="text" placeholder="Enter a Last Name" name="username" id="id-last-name">
-    </div>
-     
-    <div class="first-name-container">
-      <label for="id-email">E-mail</label>
-      <input type="text" placeholder="Enter a Email" name="username" id="id-email">
+    <div class="last-name-container">
+      <label for="id-last-name">LAST NAME</label>
+      <input type="text" placeholder="Enter Last Name" name="username" id="id-last-name">
     </div>
      
-    <div class="first-name-container">
-      <label for="phone-num">Phone</label>
-      <input type="number" placeholder="Enter a Number" id="phone-num">
+    <div class="mail-container">
+      <label for="id-email">E-MAIL</label>
+      <input type="text" placeholder="Enter Email" name="username" id="id-email">
+    </div>
+     
+    <div class="phone-container">
+      <label for="phone-num">PHONE</label>
+      <input type="number" placeholder="Enter Number" id="phone-num">
     </div>
 
-    <div class="first-name-container">
-      <label for="id-dob">Date of Birth</label>
+    <div class="dob-container">
+      <label for="id-dob">DATE OF BIRTH</label>
       <input type="date" name="username" id="id-dob">
     </div>
      
-    <div class="first-name-container">
-      <label for="id-new-password">New Password</label>
-      <input type="password" placeholder="Enter a Password" id="id-new-password">
+    <div class="new-pas-container">
+      <label for="id-new-password">NEW PASSWORD</label>
+      <input type="password" placeholder="Enter Password" id="id-new-password">
     </div>
      
-    <div class="first-name-container">
-      <label for="id-con-password">Conform Password</label>
-      <input type="password" placeholder="Enter a Password" name="username" id="id-con-password">
+    <div class="con-pas-container">
+      <label for="id-con-password">CONFIRM PASSWORD</label>
+      <input type="password" placeholder="Enter Password" name="username" id="id-con-password">
     </div>
-    <div class="first-name-container">
-      <label for="id-url">LinkedIn URL</label>
+
+    <div class="url-container">
+      <label for="id-url">LINKEDIN URL</label>
       <input type="url" placeholder="Enter URL" name="username" id="id-url">
     </div>
+    
     <div class="gender-container">
-      <label for="id-gender">Gender</label>
+      <label for="id-gender">GENDER</label>
       <span>
         <input type="radio" name="username" id="id-gender-male">
-        <label for="id-gender-male">Male</label>
+        <label for="id-gender-male">MALE</label>
       </span>
       <span>
         <input type="radio" name="username" id="id-gender-female">
-        <label for="id-gender-female">Female</label>
+        <label for="id-gender-female">FEMALE</label>
       </span>
       <span>
         <input type="radio" name="username" id="id-gender-others">
-        <label for="id-gender-others">Others</label>
+        <label for="id-gender-others">OTHERS</label>
       </span>
     </div>
      
-    <div>
-      <label for="id-language">Language</label>
+    <div class="language-container">
+      <label for="id-language">LANGUAGE</label>
       <input type="checkbox" name="username" id="id-tamil-language">
-      <label for="id-tamil-language">Tamil</label>
+      <label for="id-tamil-language">TAMIL</label>
       <input type="checkbox" name="username" id="id-english-language">
-      <label for="id-english-language">English</label>
+      <label for="id-english-language">ENGLISH</label>
       <input type="checkbox" name="username" id="id-others-language">
-      <label for="id-others-language">Hindi</label>
+      <label for="id-others-language">HINDI</label>
     </div>
-     
-    <div>
-      <label for="dist">Select Your District</label>
+    <div class="district-container first-name-container">
+      <label for="dist">SELECT YOUR DISTRICT</label>
       <select name="district" id="dist">
         <option value="select">Enter Your District</option>
         <option value="Tpr">Tirupur</option>
@@ -87,21 +88,22 @@
       </select>
     </div>
      
-    <div class="first-name-container">
-      <label for="id-file">Upload Files</label>
+    <div class="file-container">
+      <label for="id-file">UPLOAD FILES</label>
       <input type="file" name="username" id="id-file">
     </div>
      
-    <div class="first-name-container">
-      <label for="id-range">Coding Range (1 to 5)</label>
+    <div class="range-container">
+      <label for="id-range">CODING RANGE (1 to 5)</label>
       <input type="range" name="username" id="id-range">
     </div>
      
-    <div class="first-name-container">
-      <input type="button" value="Submit">
+    <div class="btn-container">
+      <input type="button" value="SUBMIT">
     </div>
-    <div >
-      <input type="reset" value="Reset">
+
+    <div class="rest-container">
+      <input type="reset" value="RESET">
     </div>
   </form>
 
