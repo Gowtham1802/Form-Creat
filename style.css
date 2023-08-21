@@ -139,20 +139,26 @@ input[type = date]{
 }
 
 .gender-container{
-  width: 100%;
+  width: 50%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
-  gap: 3rem;
+  gap: 1.5rem;
 
 }
 
 .language-container{
-  width: 100%;
-  flex-direction: row;
+  width: 50%;
+  flex-direction: column;
   justify-content: flex-start;
   gap: 1.5rem;
   display: flex;
+}
+
+.common-container{
+  width: 100%;
+  display: flex;
+
 }
 
 .btn-container{
@@ -166,10 +172,10 @@ input[type = date]{
 }
 
 .district-container{
-  sswidth: 100%;
+  width: 100%;
   /* height: 20px; */
   flex-direction: row;
-  justify-content: flex-start;     gap: 1rem;
+  justify-content: flex-start;   
   display: flex;
 }
 
@@ -186,3 +192,27 @@ input[type = date]{
   background-color: rgb(3, 183, 207);
   color: white;
 }
+
+.district-container label{
+  width: 50%;
+  height: 15px;
+}
+
+.district-container select{
+  width: 180px;
+  height: 35px;
+}
+
+.range-container {
+  width: 100%;
+  /* height: 20px; */
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+  }
+
+  .range-container input{
+    width: 50%;
+  }

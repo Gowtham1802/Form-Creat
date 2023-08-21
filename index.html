@@ -37,7 +37,7 @@
       <label for="id-new-password">NEW PASSWORD</label>
       <input type="password" placeholder="Enter Password" id="id-new-password">
     </div>
-     
+    
     <div class="con-pas-container">
       <label for="id-con-password">CONFIRM PASSWORD</label>
       <input type="password" placeholder="Enter Password" name="username" id="id-con-password">
@@ -47,32 +47,40 @@
       <label for="id-url">LINKEDIN URL</label>
       <input type="url" placeholder="Enter URL" name="username" id="id-url">
     </div>
+    <div class="common-container">
+      <div class="gender-container">
+        <label for="id-gender">GENDER</label>
+        <span>
+          <input type="radio" name="username" id="id-gender-male">
+          <label for="id-gender-male">MALE</label>
+        </span>
+        <span>
+          <input type="radio" name="username" id="id-gender-female">
+          <label for="id-gender-female">FEMALE</label>
+        </span>
+        <span>
+          <input type="radio" name="username" id="id-gender-others">
+          <label for="id-gender-others">OTHERS</label>
+        </span>
+      </div>
+      
+      <div class="language-container">
+        <label for="id-language">LANGUAGE</label>
+        <div>
+          <input type="checkbox" name="username" id="id-tamil-language">
+          <label for="id-tamil-language">TAMIL</label>
+        </div>
+        <div>
+          <input type="checkbox" name="username" id="id-english-language">
+          <label for="id-english-language">ENGLISH</label>
+        </div>
+        <div>
+          <input type="checkbox" name="username" id="id-others-language">
+          <label for="id-others-language">HINDI</label>
+        </div>
+      </div>
+    </div>
     
-    <div class="gender-container">
-      <label for="id-gender">GENDER</label>
-      <span>
-        <input type="radio" name="username" id="id-gender-male">
-        <label for="id-gender-male">MALE</label>
-      </span>
-      <span>
-        <input type="radio" name="username" id="id-gender-female">
-        <label for="id-gender-female">FEMALE</label>
-      </span>
-      <span>
-        <input type="radio" name="username" id="id-gender-others">
-        <label for="id-gender-others">OTHERS</label>
-      </span>
-    </div>
-     
-    <div class="language-container">
-      <label for="id-language">LANGUAGE</label>
-      <input type="checkbox" name="username" id="id-tamil-language">
-      <label for="id-tamil-language">TAMIL</label>
-      <input type="checkbox" name="username" id="id-english-language">
-      <label for="id-english-language">ENGLISH</label>
-      <input type="checkbox" name="username" id="id-others-language">
-      <label for="id-others-language">HINDI</label>
-    </div>
     <div class="district-container first-name-container">
       <label for="dist">SELECT YOUR DISTRICT</label>
       <select name="district" id="dist">
@@ -88,14 +96,14 @@
       </select>
     </div>
      
-    <div class="file-container">
+    <!-- <div class="file-container">
       <label for="id-file">UPLOAD FILES</label>
       <input type="file" name="username" id="id-file">
-    </div>
+    </div> -->
      
     <div class="range-container">
       <label for="id-range">CODING RANGE (1 to 5)</label>
-      <input type="range" name="username" id="id-range">
+      <input type="range"   name="username" id="id-range">
     </div>
      
     <div class="btn-container">
