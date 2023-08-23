@@ -47,24 +47,25 @@
       <label for="id-url">LINKEDIN URL</label>
       <input type="url" placeholder="Enter URL" name="username" id="id-url">
     </div>
+
     <div class="common-container">
-      <div class="gender-container">
+      <div class="gender-container" id="id-gender">
         <label for="id-gender">GENDER</label>
         <span>
-          <input type="radio" name="username" id="id-gender-male">
+          <input type="radio" name="gender" id="id-gender-male">
           <label for="id-gender-male">MALE</label>
         </span>
         <span>
-          <input type="radio" name="username" id="id-gender-female">
+          <input type="radio" name="gender" id="id-gender-female">
           <label for="id-gender-female">FEMALE</label>
         </span>
         <span>
-          <input type="radio" name="username" id="id-gender-others">
+          <input type="radio" name="gender" id="id-gender-others">
           <label for="id-gender-others">OTHERS</label>
         </span>
       </div>
       
-      <div class="language-container">
+      <div class="language-container" id="id-language">
         <label for="id-language">LANGUAGE</label>
         <div>
           <input type="checkbox" name="username" id="id-tamil-language">
@@ -81,9 +82,9 @@
       </div>
     </div>
     
-    <div class="district-container first-name-container">
+    <div class="district-container first-name-container" id="id-district">
       <label for="dist">SELECT YOUR DISTRICT</label>
-      <select name="district" id="dist">
+      <select name="district" id="id-district">
         <option value="select">Enter Your District</option>
         <option value="Tpr">Tirupur</option>
         <option value="cbe">Coimbatore</option>
@@ -101,16 +102,16 @@
       <input type="file" name="username" id="id-file">
     </div> -->
      
-    <div class="range-container">
+    <div class="range-container" id="id-ranges">
       <label for="id-range">CODING RANGE (1 to 5)</label>
       <input type="range"   name="username" id="id-range">
     </div>
      
-    <div class="btn-container">
+    <div class="btn-container" id="id-submit">
       <input type="button" value="SUBMIT">
     </div>
 
-    <div class="rest-container">
+    <div class="rest-container" id="id-reset">
       <input type="reset" value="RESET">
     </div>
   </form>
